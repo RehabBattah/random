@@ -1,0 +1,91 @@
+
+.d-flex{display: flex;}
+.text-italic{font-style: italic; font-weight: 500;}
+.text-muted{color: gray;}
+.my{margin: 5% 0 ;}
+.w-25{width: 25%;}
+.container{width: 90%; margin: 0 auto;}
+body{background-color: rgb(247, 246, 246)}
+/* NAV  */
+nav a{text-decoration: none; color: black; padding: 0 3PX;}
+nav ul li{list-style-type: none; width: 100%; padding: 5px;}
+nav ul {
+    background-color: white; 
+    width: 70%;
+    box-shadow: 0 2px 2px  lightgrey,
+    0 2px 5px  lightgrey;
+    border-radius: 40px;
+    padding: 10px;
+    margin-right: 5%;
+}
+.left-nav{color: black; font-size: 30px; font-weight: 600;}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.right-nav{
+    width: 70%;
+    align-items: center;
+}
+.active{
+    border: 1px gainsboro solid;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 8px;
+}
+nav .search{
+    border-radius: 50px;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+nav button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 9px 18px;
+    border: none;
+}
+/* **** */
+
+
+.bg{
+    box-shadow: 0 2px 2px  lightgrey;
+    /* 0 2px 5px  lightgrey; */
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+.card ,.card_2{
+    border-radius: 15px;
+    border: 1px gray dashed;
+    padding: 20px;
+}
+.card p{
+    line-height: 25px;
+}
+.dot-brdr{
+    border: 1px gainsboro dashed;
+}
+.icon img{width: 100%; border-radius: 50%; }
+.text{margin-left: 5%; align-self: center;}
+.footer{padding:0 5px ;}
+.text h4{margin-bottom:4px ; padding: 0;}
+ /* CARD_2 */
+
+.card_2 img{width: 100%; border-radius: 10px; margin-bottom: 4%;}
+/* .footer{align-items: center;} */
+.card_2 button{
+    background-color: transparent;
+    color: rgb(95, 188, 95);
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 8px 12px;
+    margin-top: 5% 0;
+}
